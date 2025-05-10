@@ -1,0 +1,15 @@
+[project]
+name = "sigilwars"
+version = "0.1.0"
+description = "A high-fantasy card duel where mages clash with elemental power, arcane spells, and tactical mastery."
+readme = "README.md"
+authors = [{ name = "Manoah Bernier", email = "manoah.bernier@pm.me" }]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+sigilwars = "sigilwars:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
